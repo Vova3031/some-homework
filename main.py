@@ -120,23 +120,3 @@ class Human:
 if __name__ == "__main__":
     human = Human()
     human.is_alive()
-
-
-    class Sims:
-        def __init__(self, mood, messiness, car_condition, money):
-            self.mood = mood
-            self.messiness = messiness
-            self.car_condition = car_condition
-            self.money = money
-
-        def chill(self):
-            self.mood += 10
-            self.messiness += 5
-
-        def clean_home(self):
-            self.mood -= 5
-            self.messiness = 0
-
-        def to_repair(self):
-            self.car_condition += 100
-            self.money -= 50
